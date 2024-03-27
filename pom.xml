@@ -7,6 +7,7 @@
   <groupId>sample.program</groupId>
   <artifactId>simple-app</artifactId>
   <version>1.0</version>
+
   <properties>
     <maven.compiler.source>1.6</maven.compiler.source>
     <maven.compiler.target>1.6</maven.compiler.target>
@@ -21,6 +22,7 @@
 		</dependency>
 	</dependencies>
 
+  <build>
 	<plugins>
     <plugin>
       <groupId>org.jacoco</groupId>
@@ -47,5 +49,5 @@
       </executions>
     </plugin>
    </plugins>
-  
+  </build>
 </project>
