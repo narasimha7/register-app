@@ -9,7 +9,7 @@ class Calculator {
         return i + j;
     }
 
-     public int sum(int i, int j) {
+     public int sum(int i, int j) throws NullPointerException{
         System.out.println("Addition of " + i + "," + j + " is: " + (i + j));
         return i + j;
     }
