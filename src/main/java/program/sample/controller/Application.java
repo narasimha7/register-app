@@ -9,6 +9,11 @@ class Calculator {
         return i + j;
     }
 
+     public int sum(int i, int j) {
+        System.out.println("Addition of " + i + "," + j + " is: " + (i + j));
+        return i + j;
+    }
+
     public int mul(int i, int j) {
         System.out.println("Multiplication of " + i + "," + j + " is: " + (i * j));
         return i * j;
